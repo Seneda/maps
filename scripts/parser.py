@@ -17,7 +17,7 @@ def make_marker(location):
             'time': location["timestampMs"],
             'index': i
         }
-    i+=1
+    i += 1
     return r
 
 markers = [make_marker(l) for l in locations[:]]  # Choose a specific subset of my locations.json data
