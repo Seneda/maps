@@ -5,7 +5,7 @@ Convert locations.json into a usable format that can be read in as a javascript 
 """
 basedir = abspath(join(dirname(__file__), ".."))
 
-locations = json.load(open(join(basedir, "gpsdata/locationsCalifornia.json")))
+locations = json.load(open(join(basedir, "gpsdata/locationsUSAEdited.json")))
 
 i = 0
 def make_marker(location):
