@@ -45,8 +45,8 @@ function addPoints(map, points){
 function initMap() {
     var map = new google.maps.Map(document.getElementById('map'),
         {
-             zoom: 7,  // this level gives a good image of entire usa at 5000*3000 px
-             center: {'lat':40.1,'lng':-99}, // centre of the usa
+             zoom: 7,  // level 7 zoom gives a good image of entire usa at 5000*3000 px
+             center: markers[0],  //{'lat':40.1,'lng':-99}, // centre of the usa
              mapTypeId: 'satellite'
         });
     console.log(markers[10000]);
